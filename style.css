@@ -1,0 +1,186 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    } 
+    /*Indica os atributos globais zeralos é muito importante*/  
+
+    .img-logo{
+    height: 40px;
+    width: 40px;
+    
+    }
+
+    .conjunto{   
+    display: flex;     
+    background-color: black;
+    max-width: 100%;
+    height: 40px;
+    justify-content: space-between;
+    
+    }
+    /*Indica a Tag <nav>, modifica a barra de background inserida atras da <li>*/
+
+    #menu-c{
+      display:flex ;
+      list-style: none;
+      font-family: Arial, Helvetica, sans-serif;
+     }
+     /*Indica a tag <ul>,modifica a fonte e os estilos da <li>*/
+
+    #menu-c,a{
+    display: inline-block;
+    margin: 9px;  
+    }
+    /*Indiica a tag <ul> e a tag <li>, coloca a <li> em linha e da o espaçamento para as <li>s*/
+
+    #menu-c,li,a{
+      text-decoration: none;
+      transition: color 6s;
+      background-color: rgb(0, 0, 0);
+      color: white;
+    }
+    /*indica a tag <ul> a tag <li> e a tag <a> colocada para link, retira o sublinhado abaixo da <li>, adiciona uma transição ao passar o mouse, background da <li>, cor da letra */
+
+    #menu-c,li,a:hover{
+      background-color: rgb(74, 80, 246);
+      transform:translate(3px);
+    }
+  /*indica a tag <ul> a tag <li> e a tag <a> colocada para link, :hover indica o background da <li>.*/ 
+  
+marquee{
+  display: flex;
+}
+  @media (max-width: 600px)
+  {
+    fieldset{
+      display: none;
+    }
+}
+   
+    
+  
+  .input{
+    display: flex;
+    top: 7%;
+    left: 65%;
+  position: absolute;
+  border-radius: 7px;
+  transition: 8s;
+  transition-delay: 2s;
+  border-radius: 6px;
+  
+  }
+  fieldset{
+    background-color: rgba(155, 127, 255, 0.872);
+    background: none;
+    border:none;
+    
+    
+    
+  }
+  .chek{
+    
+    font-size:smaller;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+.text{
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.018);
+ 
+}
+
+.password{
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.018);
+}
+legend{
+  text-align: center;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.submit{
+  background-image:linear-gradient(to right,rgb(21, 28, 241), rgba(179, 0, 255, 0.676));
+  width: 100%;
+  padding: 3px;
+  transition: 5s;
+  transition-delay: 3s;
+  border-radius: 6px;
+}
+.inputs{
+  background: none;
+  border:none ;
+  border-bottom:1px;
+  outline:none ;
+  transition: 7s;
+  transform: translatex(5px);
+  
+
+
+}
+
+section{
+  display: inline-block;
+}
+
+#titulo-m{
+  height: 100%;
+  padding-left: 10%;
+  text-align: center;  
+  margin: 10%;
+  float: left;
+  max-width: 100%;
+  width: 75%;
+  text-shadow: 2px 2px 4px rgba(247, 33, 18, 0.614);
+  transition-timing-function: 
+  ease-out ;
+  transition-duration: 3s;
+  transition-delay: 1s;
+ 
+}
+
+
+
+.img-meio{
+  height: 100%;
+  width: 100%;
+}
+
+#contexto-m{
+ text-align: center;
+ font-size:small; 
+}
+
+main{
+  background-image:linear-gradient(to right,rgb(21, 28, 241), rgba(179, 0, 255, 0.676));
+}
+
+#titulo-f{
+  height: 100%;
+  padding-left: 13%;
+  text-align: center;  
+  margin: 6%;
+  float: left;
+  max-width: 100%;
+  width: 73%;
+  text-shadow: 2px 2px 4px rgba(247, 33, 18, 0.614); 
+  transition-timing-function: 
+  ease-out;
+  transition-duration: 3s;
+  transition-delay: 5s;
+}
+
+.img-f{
+  height: 100%;
+  width: 100%;
+}
+
+video{
+  display: inline-block;
+  max-width: 700px;
+  height: 300px;
+  width: 200px;
+  margin: 0 33%;
+}
